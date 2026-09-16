@@ -276,7 +276,7 @@ footer .paw { letter-spacing: 12px; color: var(--mouse); margin-bottom: 10px; us
 
 /* ─── リード上の中央キャラ ─── */
 .hero-char { text-align: center; }
-.hero-char img { width: min(230px, 55vw); margin: 26px auto 6px; }
+.hero-char img { width: min(400px, 82vw); max-width: 100%; margin: 28px auto 12px; display: block; }
 
 /* 使いやすさ・小画面の調整 */
 .skip-link{position:fixed;top:-100px;left:12px;z-index:100;background:var(--ink);color:white;padding:10px 16px}.skip-link:focus{top:12px}
@@ -291,3 +291,6 @@ fieldset{border:0;min-width:0}.field legend{font-family:'Zen Maru Gothic',sans-s
 #contact-form .req{font-size:.75rem;color:var(--ink)}#contact-form input,#contact-form textarea{font-size:1rem}.choice input{flex-shrink:0}#contact-fields:disabled{opacity:.65}#form-status{margin:0 0 28px}button:disabled{cursor:not-allowed}
 @media(max-width:420px){.nav{padding:8px 10px}.nav-links{gap:0}.nav-links a{padding:6px 8px}.hero-lead h1{font-size:1.5rem;letter-spacing:0}.gallery{gap:10px}.news li{flex-direction:column;gap:4px}}
 @media(prefers-reduced-motion:reduce){.motion-controls{display:none}.marquee-track img[aria-hidden]{display:none}}
+
+.btn-shop { background: var(--cream); color: var(--ink); border: 2px solid var(--brown); box-shadow: 0 4px 0 var(--brown); }
+.btn-shop:hover { transform: translateY(2px); box-shadow: 0 2px 0 var(--brown); }
