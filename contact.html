@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お問い合わせ | ねずみまる</title>
+<meta name="description" content="イラストレーター・ねずみまるへのご依頼・ご相談はこちらのフォームからお願いします。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/webp" href="logo-palette.webp">
+<link rel="stylesheet" href="style.css">
+<script src="site.js" defer></script>
+<style>
+  /* ─── フォーム専用スタイル ─── */
+  .form-wrap { max-width: 640px; margin: 0 auto; }
+  .form-intro { text-align: center; font-size: 0.92rem; color: var(--ink-soft); margin-bottom: 36px; }
+  .field { margin-bottom: 28px; }
+  .field > label, .field > .group-label {
+    display: block; font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 700; font-size: 0.92rem; margin-bottom: 8px;
+  }
+  .req {
+    display: inline-block; background: var(--blush); color: var(--white);
+    font-size: 0.68rem; padding: 1px 8px; border-radius: 999px;
+    margin-left: 8px; vertical-align: 2px; font-weight: 700;
+  }
+  input[type="text"], input[type="email"], textarea {
+    width: 100%; border: 2px solid var(--line); border-radius: 12px;
+    background: var(--white); padding: 12px 14px;
+    font-family: inherit; font-size: 0.95rem; color: var(--ink);
+  }
+  input:focus, textarea:focus { outline: none; border-color: var(--blush); }
+  textarea { min-height: 140px; resize: vertical; }
+  .choice { display: flex; flex-direction: column; gap: 8px; }
+  .choice label {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--white); border: 2px solid var(--line);
+    border-radius: 12px; padding: 10px 14px; font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .choice label:has(:checked) { border-color: var(--blush); background: #FDF3EF; }
+  .choice input { accent-color: var(--blush); width: 17px; height: 17px; }
+  .submit-row { text-align: center; margin-top: 36px; }
+  .form-note {
+    margin-top: 40px; background: var(--white); border: 2px solid var(--line);
+    border-radius: var(--radius); padding: 22px 26px;
+    font-size: 0.85rem; color: var(--ink-soft);
+  }
+  .form-note strong { color: var(--ink); }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">本文へ移動</a>
+
+<header>
+  <nav class="nav" aria-label="メインナビゲーション">
+    <a class="site-logo" href="index.html"><img src="logo-header.webp" alt="おえかきやさん ねずみまる"></a>
+    <div class="nav-links">
+      <a href="index.html">HOME</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="commission.html">COMMISSION</a>
+      <a href="about.html">ABOUT</a>
+      <a href="contact.html" aria-current="page">CONTACT</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <div class="page-head">
+    <div class="ears" aria-hidden="true"><span></span><span></span></div>
+    <h1>お問い合わせ</h1>
+    <div class="en">CONTACT</div>
+  </div>
+
+  <section>
+    <div class="wrap form-wrap">
+      <p class="form-intro">
+        お仕事のご依頼をご検討いただきありがとうございます。<br>
+        ご相談だけでも大丈夫ですので、お気軽にお問い合わせください。<br>
+        内容を確認のうえ、ご返信いたします。
+      </p>
+
+      <!-- Formspree URL は site.js の FORM_ENDPOINT に設定してください。 -->
+      <p id="form-status" class="form-note" role="status">お問い合わせフォームは準備中です。最新情報は <a href="https://x.com/Nezumimaru_ART" target="_blank" rel="noopener">X（@Nezumimaru_ART）</a> をご覧ください。</p>
+      <form id="contact-form" method="POST">
+<fieldset id="contact-fields" disabled>
+
+        <fieldset class="field"><legend class="group-label">お問い合わせ内容<span class="req">必須</span></legend><div class="choice">
+            <label><input type="radio" name="お問い合わせ内容" value="イラスト制作のご相談" required>イラスト制作のご相談</label>
+            <label><input type="radio" name="お問い合わせ内容" value="イラストのご使用のご相談">イラストのご使用のご相談</label>
+            <label><input type="radio" name="お問い合わせ内容" value="その他のご相談">その他のご相談</label>
+          </div></fieldset>
+
+        <div class="field">
+          <label for="name">お名前<span class="req">必須</span></label>
+          <input type="text" id="name" name="お名前" required autocomplete="name">
+        </div>
+
+        <div class="field">
+          <label for="company">会社名</label>
+          <input type="text" id="company" name="会社名" autocomplete="organization">
+        </div>
+
+        <div class="field">
+          <label for="email">メールアドレス<span class="req">必須</span></label>
+          <input type="email" id="email" name="_replyto" required autocomplete="email">
+        </div>
+
+        <div class="field">
+          <label for="subject">件名</label>
+          <input type="text" id="subject" name="件名">
+        </div>
+
+        <div class="field">
+          <label for="budget">ご希望の費用</label>
+          <input type="text" id="budget" name="ご希望の費用" placeholder="例：〜30,000円くらいで">
+        </div>
+
+        <div class="field">
+          <label for="deadline">ご希望の納期</label>
+          <input type="text" id="deadline" name="ご希望の納期" placeholder="例：9月末まで">
+        </div>
+
+        <fieldset class="field"><legend class="group-label">制作物のイメージ<span class="req">必須</span></legend><div class="choice">
+            <label><input type="checkbox" name="制作物のイメージ" value="WEB・SNS・動画などデジタルでの使用">WEB、SNS、動画サイトなどのデジタルでの使用</label>
+            <label><input type="checkbox" name="制作物のイメージ" value="書籍・雑誌などの出版物">書籍、雑誌などの出版物</label>
+            <label><input type="checkbox" name="制作物のイメージ" value="ポスター・チラシ">ポスター、チラシ</label>
+            <label><input type="checkbox" name="制作物のイメージ" value="パッケージ">パッケージ</label>
+            <label><input type="checkbox" name="制作物のイメージ" value="グッズ">グッズ</label>
+            <label><input type="checkbox" name="制作物のイメージ" value="その他">その他</label>
+          </div></fieldset>
+
+        <div class="field">
+          <label for="detail">ご相談内容</label>
+          <textarea id="detail" name="ご相談内容" placeholder="お決まりになっている内容やご相談内容がございましたらご記入ください。（使用媒体、使用期間、納品形態など）"></textarea>
+        </div>
+
+        <fieldset class="field"><legend class="group-label">実績公開の可否<span class="req">必須</span></legend><div class="choice">
+            <label><input type="radio" name="実績公開の可否" value="可" required>可</label>
+            <label><input type="radio" name="実績公開の可否" value="不可">不可</label>
+            <label><input type="radio" name="実績公開の可否" value="その他（要相談）">その他（要相談）</label>
+          </div></fieldset>
+
+        <div class="submit-row">
+          <button class="btn btn-primary" type="submit" style="border:none;cursor:pointer">送信する</button>
+        </div>
+</fieldset>
+      </form>
+
+      <div class="form-note">
+        <strong>【ご連絡についてのご注意】</strong>
+        <ul style="margin:8px 0 0 1.2em">
+          <li>通常2〜3営業日以内にご返信します。返信がない場合は、お手数ですがもう一度ご連絡ください。</li>
+          <li>実績公開について：制作物の公開後、実績としてWebサイトやSNSに掲載させていただく場合があります。不可の場合は事前にお知らせください。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="paw" aria-hidden="true">・・・・・</div>
+  © 2026 ねずみまる<br>
+  掲載イラストの無断転載・無断使用・AI学習利用はご遠慮ください。
+</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ねずみまる | おえかきやさん</title>
+<meta name="description" content="イラストレーター・ねずみまるのホームページ。あたたかくてちょっと楽しいイラストを描いています。カレンダーイラスト・キャラクターデザイン・間違い探しなどのご依頼を承ります。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/webp" href="logo-palette.webp">
+<link rel="stylesheet" href="style.css">
+<script src="site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">本文へ移動</a>
+
+<header>
+  <nav class="nav" aria-label="メインナビゲーション">
+    <a class="site-logo" href="index.html"><img src="logo-header.webp" alt="おえかきやさん ねずみまる"></a>
+    <div class="nav-links">
+      <a href="index.html" aria-current="page">HOME</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="commission.html">COMMISSION</a>
+      <a href="about.html">ABOUT</a>
+      <a href="contact.html">CONTACT</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- スライドバナー（2026年カレンダーイラスト12枚がゆっくり流れます）
+       画像の入れ替え： の中身を差し替えて、下のimgタグを書き換えればOK
+       ※後半の aria-hidden の12枚は「ループを途切れさせないための複製」なので、
+         前半を変えたら後半も同じ順番に揃えてください -->
+  <div class="marquee" tabindex="0" aria-label="カレンダーイラスト。自動スクロールは下のボタンで停止できます。">
+    <div class="marquee-track">
+      <img src="2026-01.webp" alt="2026年1月のカレンダーイラスト">
+      <img src="2026-02.webp" alt="2026年2月のカレンダーイラスト">
+      <img src="2026-03.webp" alt="2026年3月のカレンダーイラスト">
+      <img src="2026-04.webp" alt="2026年4月のカレンダーイラスト">
+      <img src="2026-05.webp" alt="2026年5月のカレンダーイラスト">
+      <img src="2026-06.webp" alt="2026年6月のカレンダーイラスト">
+      <img src="2026-07.webp" alt="2026年7月のカレンダーイラスト">
+      <img src="2026-08.webp" alt="2026年8月のカレンダーイラスト">
+      <img src="2026-09.webp" alt="2026年9月のカレンダーイラスト">
+      <img src="2026-10.webp" alt="2026年10月のカレンダーイラスト">
+      <img src="2026-11.webp" alt="2026年11月のカレンダーイラスト">
+      <img src="2026-12.webp" alt="2026年12月のカレンダーイラスト">
+      <img src="2026-01.webp" alt="" aria-hidden="true">
+      <img src="2026-02.webp" alt="" aria-hidden="true">
+      <img src="2026-03.webp" alt="" aria-hidden="true">
+      <img src="2026-04.webp" alt="" aria-hidden="true">
+      <img src="2026-05.webp" alt="" aria-hidden="true">
+      <img src="2026-06.webp" alt="" aria-hidden="true">
+      <img src="2026-07.webp" alt="" aria-hidden="true">
+      <img src="2026-08.webp" alt="" aria-hidden="true">
+      <img src="2026-09.webp" alt="" aria-hidden="true">
+      <img src="2026-10.webp" alt="" aria-hidden="true">
+      <img src="2026-11.webp" alt="" aria-hidden="true">
+      <img src="2026-12.webp" alt="" aria-hidden="true">
+    </div>
+  </div>
+
+  <div class="motion-controls"><button type="button" class="motion-toggle" aria-pressed="false">スクロールを停止</button></div>
+  <div class="hero-lead">
+    <h1>汲んで、<span class="accent">描いて</span>、すぐ届く。</h1>
+    <p>げっ歯目似の絵描き・ねずみまるです🐭 寄り目が特徴のキャラ絵を描きます🎨<br>
+    挿絵・漫画・間違い探し・アイコン・似顔絵・ロゴ・名刺・NFTアート・速描き・人物デフォルメが得意。<br>
+    ご依頼主さまの気持ちを汲んで、はやく描きあげるのが持ち味です。</p>
+    <div class="hero-char">
+      <img src="character.webp" alt="ねずみまるのキャラクター。ねずみ耳のヘッドホンをつけて筆を持ち、手のひらにねずみを乗せている">
+    </div>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="contact.html">ご依頼はこちら</a>
+      <a class="btn btn-secondary" href="gallery.html">作品を見る</a>
+    </div>
+  </div>
+
+  <!-- 受付状況 -->
+  <section>
+    <div class="wrap">
+      <div class="status">
+        <span class="label">受付状況</span>
+        <div class="state">ご依頼を受付中です 🐭</div>
+        <div class="date">最終更新日：2026.7.30</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- お知らせ -->
+  <section>
+    <div class="wrap">
+      <div class="page-head" style="padding-top:0">
+        <div class="ears" aria-hidden="true"><span></span><span></span></div>
+        <h2>お知らせ</h2>
+        <div class="en">NEWS</div>
+      </div>
+      <ul class="news">
+        <li><time datetime="2026-07-30">2026.7.30</time><span>ホームページをリニューアルしました！</span></li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- SNS -->
+  <section>
+    <div class="wrap">
+      <div class="page-head" style="padding-top:0">
+        <div class="ears" aria-hidden="true"><span></span><span></span></div>
+        <h2>フォローしてね</h2>
+        <div class="en">FOLLOW</div>
+      </div>
+      <div class="sns-row">
+        <a class="sns-chip" href="https://x.com/Nezumimaru_ART" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span>X（作品を毎日投稿）</a>
+        <a class="sns-chip" href="https://note.com/nezumimaru" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span>note</a>
+        <a class="sns-chip" href="https://nezumimaru.substack.com" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span>ポッドキャスト</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="paw" aria-hidden="true">・・・・・</div>
+  © 2026 ねずみまる<br>
+  掲載イラストの無断転載・無断使用・AI学習利用はご遠慮ください。
+</footer>
+
+</body>
+</html>
+
