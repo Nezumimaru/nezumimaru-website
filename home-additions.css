@@ -40,6 +40,11 @@
 .social-other{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;margin-top:16px}
 .social-other a{display:flex;justify-content:space-between;align-items:center;gap:8px;background:#fff4e5;border:1px solid #ead9c1;border-radius:18px;padding:18px 20px;text-decoration:none}
 .social-other a:hover{background:#ffecd4}
+.social-other a:nth-child(1){background:#dcebd7;border-color:#c9dcc4}.social-other a:nth-child(1):hover{background:#cce2c6}
+.social-other a:nth-child(2){background:#e7dcee;border-color:#d9c9e2}.social-other a:nth-child(2):hover{background:#ddceea}
+.social-other a:nth-child(3){background:#f5dce2;border-color:#e9cbd3}.social-other a:nth-child(3):hover{background:#f0cdd7}
+.social-other a:nth-child(4){background:#f9edc8;border-color:#eadcad}.social-other a:nth-child(4):hover{background:#f5e2ad}
+.social-other a:nth-child(5){background:#f7dfcd;border-color:#eacbb4}.social-other a:nth-child(5):hover{background:#f1d0b9}
 .social-other strong{font-size:16px}
 .social-other span{font-size:12px;color:var(--muted)}
 .social-other .link-mark{font-size:11px}
