@@ -15,6 +15,7 @@ form.addEventListener('submit', event => {
     const dd = document.createElement('dd');
     dt.textContent = labels[key] || key;
     dd.textContent = String(value).trim() || '未記入';
+    if (String(value).trim() && !['ご相談の種類','個人情報の取り扱いへの同意'].includes(key)) dd.dataset.noTranslate = '';
     data.append(dt,dd);
   }
   fields.hidden = true;
