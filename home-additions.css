@@ -33,7 +33,8 @@
 .social-home{margin-top:35px}
 .social-main{display:grid;grid-template-columns:84px 1fr auto;gap:22px;align-items:center;min-height:170px;padding:28px 38px;background:#d9eaf0;border-radius:22px;text-decoration:none;transition:transform .2s,background .2s}
 .social-main:hover{transform:translateY(-3px);background:#cce2eb}
-.social-main .social-icon{display:grid;place-items:center;width:72px;height:72px;border-radius:50%;background:white;font-size:37px;font-family:Arial,sans-serif;font-weight:700;line-height:1}
+.social-main .social-icon{display:grid;place-items:center;width:72px;height:72px;border-radius:50%;background:#fff;overflow:hidden;line-height:1}
+.social-main .social-icon img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
 .social-main small,.social-main em{display:block;font-size:13px;font-style:normal;color:#5a6b71;line-height:1.6}
 .social-main strong{display:block;font-size:42px;line-height:1.2}
 .social-other{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:16px}
