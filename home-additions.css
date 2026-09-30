@@ -1,17 +1,16 @@
 .about .portrait img{mix-blend-mode:normal;max-height:480px;filter:drop-shadow(0 12px 12px #734c3020)}
 .about-contact{margin-top:22px}
 .choroli-feature{padding-top:60px}
-.choroli-spotlight{position:relative;padding-bottom:105px}
-.choroli-spotlight>img{display:block;width:100%;border-radius:26px;background:#e9f4f4;box-shadow:0 14px 38px #73553918}
-.choroli-spotlight-copy{position:relative;width:min(57%,620px);margin:-74px 20px 0 auto;padding:28px 35px 33px;background:#fffaf0;border:1px solid #e8d7bd;border-radius:25px;box-shadow:0 14px 35px #73553917}
-.choroli-spotlight-copy h3{font-size:clamp(22px,2.5vw,32px);line-height:1.6;margin:0 0 15px}
-.choroli-spotlight-copy p:not(.eyebrow){font-size:14px;line-height:2;margin:10px 0}
-.choroli-spotlight-copy .choroli-button{margin-top:17px}
+.choroli-spotlight{overflow:hidden;border:1px solid #e8d7bd;border-radius:26px;background:#fffaf0}
+.choroli-spotlight>img{display:block;width:100%;height:auto;background:#e9f4f4}
+.choroli-spotlight-copy{display:grid;grid-template-columns:1fr 1.25fr;gap:44px;align-items:start;padding:36px 40px 40px}
+.choroli-spotlight-copy h3{font-size:clamp(22px,2.5vw,30px);line-height:1.7;margin:0}
+.choroli-details p{font-size:15px;line-height:2;margin:0 0 12px;line-break:strict;overflow-wrap:anywhere}
+.choroli-spotlight-copy .choroli-button{margin-top:10px}
 .goods-feature{max-width:1260px}
 .goods-layout{display:grid;grid-template-columns:1.4fr 1fr;gap:55px;align-items:center}
-.goods-mosaic{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:215px 215px;gap:12px}
-.goods-mosaic img{width:100%;height:100%;object-fit:cover;border-radius:17px;background:#fff}
-.goods-mosaic img:first-child{grid-row:span 2}
+.goods-visual{overflow:hidden;border-radius:20px;background:#fff}
+.goods-visual img{display:block;width:100%;height:auto;object-fit:contain}
 .goods-copy h2{font-size:clamp(27px,3vw,38px);line-height:1.6}
 .goods-copy p:not(.eyebrow){max-width:360px}
 .goods-copy .choroli-button{margin-top:20px}
@@ -43,5 +42,5 @@
 .social-other strong{font-size:16px}
 .social-other span{font-size:12px;color:var(--muted)}
 .social-other .link-mark{font-size:11px}
-@media(max-width:760px){.choroli-feature{padding-top:30px}.choroli-spotlight{padding-bottom:10px}.choroli-spotlight>img{border-radius:16px}.choroli-spotlight-copy{width:auto;margin:-16px 8px 0;padding:22px 20px;border-radius:17px}.goods-layout{grid-template-columns:1fr;gap:25px}.goods-mosaic{grid-template-rows:170px 170px;gap:8px}.goods-mosaic img{border-radius:11px}.goods-copy .choroli-button{margin-top:10px}.history-section{padding-top:50px}.history-list article{grid-template-columns:1fr;gap:16px;padding:24px 0}.history-year{font-size:48px}.history-items{padding-left:15px}.human-section{padding-top:40px}.human-card>img{aspect-ratio:3/1}.human-copy{padding:18px 20px 26px}.social-main{grid-template-columns:54px 1fr auto;min-height:120px;padding:18px;gap:14px}.social-main .social-icon{width:52px;height:52px;font-size:29px}.social-main strong{font-size:30px}.social-other{grid-template-columns:1fr;gap:9px}.social-other a{padding:12px 17px}.links{padding-bottom:40px}}
+@media(max-width:760px){.choroli-feature{padding-top:30px}.choroli-spotlight{border-radius:17px}.choroli-spotlight-copy{grid-template-columns:1fr;gap:20px;padding:24px 20px}.choroli-intro .eyebrow{font-size:11px;letter-spacing:.1em}.choroli-details p{font-size:14px}.goods-layout{grid-template-columns:1fr;gap:25px}.goods-visual{border-radius:14px}.goods-copy .choroli-button{margin-top:10px}.history-section{padding-top:50px}.history-list article{grid-template-columns:1fr;gap:16px;padding:24px 0}.history-year{font-size:48px}.history-items{padding-left:15px}.human-section{padding-top:40px}.human-card>img{aspect-ratio:3/1}.human-copy{padding:18px 20px 26px}.social-main{grid-template-columns:54px 1fr auto;min-height:120px;padding:18px;gap:14px}.social-main .social-icon{width:52px;height:52px;font-size:29px}.social-main strong{font-size:30px}.social-other{grid-template-columns:1fr;gap:9px}.social-other a{padding:12px 17px}.links{padding-bottom:40px}}
 @media(prefers-reduced-motion:reduce){.social-main{transition:none}}
