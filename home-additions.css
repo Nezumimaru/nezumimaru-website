@@ -1,0 +1,47 @@
+.about .portrait img{mix-blend-mode:normal;max-height:480px;filter:drop-shadow(0 12px 12px #734c3020)}
+.about-contact{margin-top:22px}
+.choroli-feature{padding-top:60px}
+.choroli-spotlight{position:relative;padding-bottom:105px}
+.choroli-spotlight>img{display:block;width:100%;border-radius:26px;background:#e9f4f4;box-shadow:0 14px 38px #73553918}
+.choroli-spotlight-copy{position:relative;width:min(57%,620px);margin:-74px 20px 0 auto;padding:28px 35px 33px;background:#fffaf0;border:1px solid #e8d7bd;border-radius:25px;box-shadow:0 14px 35px #73553917}
+.choroli-spotlight-copy h3{font-size:clamp(22px,2.5vw,32px);line-height:1.6;margin:0 0 15px}
+.choroli-spotlight-copy p:not(.eyebrow){font-size:14px;line-height:2;margin:10px 0}
+.choroli-spotlight-copy .choroli-button{margin-top:17px}
+.goods-feature{max-width:1260px}
+.goods-layout{display:grid;grid-template-columns:1.4fr 1fr;gap:55px;align-items:center}
+.goods-mosaic{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:215px 215px;gap:12px}
+.goods-mosaic img{width:100%;height:100%;object-fit:cover;border-radius:17px;background:#fff}
+.goods-mosaic img:first-child{grid-row:span 2}
+.goods-copy h2{font-size:clamp(27px,3vw,38px);line-height:1.6}
+.goods-copy p:not(.eyebrow){max-width:360px}
+.goods-copy .choroli-button{margin-top:20px}
+.history-section{padding-top:90px}
+.history-list{border-top:1px solid #decbb4}
+.history-list article{display:grid;grid-template-columns:230px 1fr;gap:28px;padding:29px 0;border-bottom:1px solid #decbb4}
+.history-year{font-family:Georgia,serif;font-size:clamp(46px,6vw,72px);font-weight:700;line-height:1;color:#bd7052;letter-spacing:-.04em}
+.history-items{position:relative;padding-left:24px;border-left:2px solid #d8ad90}
+.history-items p{font-size:15px;line-height:1.8;margin:0 0 12px}
+.history-items p:last-child{margin-bottom:0}
+.history-items strong{display:inline-block;color:#af5e45;font-size:12px;margin-right:10px}
+.history-source{font-size:13px;color:var(--muted);margin:25px 0 0}
+.human-section{padding-top:70px}
+.human-card{overflow:hidden;border-radius:26px;background:#f2e9dc}
+.human-card>img{width:100%;aspect-ratio:3/1;object-fit:cover}
+.human-copy{padding:24px 35px 35px}
+.human-copy p{max-width:760px;line-height:2.2;margin:6px 0 14px}
+.human-copy .choroli-button{margin-top:8px}
+.links{text-align:left}
+.social-home{margin-top:35px}
+.social-main{display:grid;grid-template-columns:84px 1fr auto;gap:22px;align-items:center;min-height:170px;padding:28px 38px;background:#d9eaf0;border-radius:22px;text-decoration:none;transition:transform .2s,background .2s}
+.social-main:hover{transform:translateY(-3px);background:#cce2eb}
+.social-main .social-icon{display:grid;place-items:center;width:72px;height:72px;border-radius:50%;background:white;font-size:37px;font-family:Arial,sans-serif;font-weight:700;line-height:1}
+.social-main small,.social-main em{display:block;font-size:13px;font-style:normal;color:#5a6b71;line-height:1.6}
+.social-main strong{display:block;font-size:42px;line-height:1.2}
+.social-other{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:16px}
+.social-other a{display:flex;justify-content:space-between;align-items:center;gap:8px;background:#fff4e5;border:1px solid #ead9c1;border-radius:18px;padding:18px 20px;text-decoration:none}
+.social-other a:hover{background:#ffecd4}
+.social-other strong{font-size:16px}
+.social-other span{font-size:12px;color:var(--muted)}
+.social-other .link-mark{font-size:11px}
+@media(max-width:760px){.choroli-feature{padding-top:30px}.choroli-spotlight{padding-bottom:10px}.choroli-spotlight>img{border-radius:16px}.choroli-spotlight-copy{width:auto;margin:-16px 8px 0;padding:22px 20px;border-radius:17px}.goods-layout{grid-template-columns:1fr;gap:25px}.goods-mosaic{grid-template-rows:170px 170px;gap:8px}.goods-mosaic img{border-radius:11px}.goods-copy .choroli-button{margin-top:10px}.history-section{padding-top:50px}.history-list article{grid-template-columns:1fr;gap:16px;padding:24px 0}.history-year{font-size:48px}.history-items{padding-left:15px}.human-section{padding-top:40px}.human-card>img{aspect-ratio:3/1}.human-copy{padding:18px 20px 26px}.social-main{grid-template-columns:54px 1fr auto;min-height:120px;padding:18px;gap:14px}.social-main .social-icon{width:52px;height:52px;font-size:29px}.social-main strong{font-size:30px}.social-other{grid-template-columns:1fr;gap:9px}.social-other a{padding:12px 17px}.links{padding-bottom:40px}}
+@media(prefers-reduced-motion:reduce){.social-main{transition:none}}
