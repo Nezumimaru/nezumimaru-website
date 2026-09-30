@@ -37,7 +37,7 @@
 .social-main .social-icon img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
 .social-main small,.social-main em{display:block;font-size:13px;font-style:normal;color:#5a6b71;line-height:1.6}
 .social-main strong{display:block;font-size:42px;line-height:1.2}
-.social-other{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:16px}
+.social-other{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;margin-top:16px}
 .social-other a{display:flex;justify-content:space-between;align-items:center;gap:8px;background:#fff4e5;border:1px solid #ead9c1;border-radius:18px;padding:18px 20px;text-decoration:none}
 .social-other a:hover{background:#ffecd4}
 .social-other strong{font-size:16px}
