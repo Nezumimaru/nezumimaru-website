@@ -66,3 +66,5 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "たこやきの旅行エッセイ漫画 3枚目を大きく見る（新しいタブ）": "Enlarge takoyaki travel comic, page 3 (new tab)"
 });
 Object.assign(window.NEZUMIMARU_TRANSLATIONS, {"イラスト／まちがいさがし｜ねずみまる 公式ホームページ": "Illustration & Puzzles | Nezumimaru Official Website", "まちがいさがし制作｜ねずみまる 公式ホームページ": "Spot-the-Difference Illustration | Nezumimaru Official Website", "猪狩工務店の広報誌に描いた、春のお花見のまちがいさがし": "Cherry blossom picnic puzzle for Igari Construction’s newsletter", "春のお花見のまちがいさがしを大きく見る（新しいタブ）": "Enlarge the cherry blossom picnic puzzle (new tab)"});
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {"まちがいさがしの拡大表示｜ねずみまる 公式ホームページ": "Spot-the-Difference Preview | Nezumimaru Official Website", "← まちがいさがしの制作例へ": "← Puzzle Illustrations", "まちがいさがしの制作例へ戻る": "Back to Puzzle Illustrations", "スマートフォンでは、ピンチ操作で拡大できます。": "On a phone, pinch to zoom in."});
