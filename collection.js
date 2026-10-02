@@ -1,3 +1,4 @@
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {"これまでに描いた似顔絵の制作例です。":"Portraits I have created."});
 Object.assign(window.NEZUMIMARU_TRANSLATIONS, {"制作で参加した受賞作品":"Award-winning collaborative work","2022年　Cluster GAMEJAM2022 テーマ賞受賞作品のワールド制作・バナーを担当":"2022 — World creation and banner design for a Theme Award-winning entry at Cluster GAMEJAM2022"});
 Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "ねずみのちょろりのイラスト": "Choroli illustration",
@@ -119,8 +120,8 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "キャンプのひとときを大きく見る": "View A camping moment larger",
   "絵を描く女の子": "A girl with her palette",
   "絵を描く女の子を大きく見る": "View A girl with her palette larger",
-  "なかまたちの集合イラスト": "A group of colorful characters",
-  "なかまたちの集合イラストを大きく見る": "View A group of colorful characters larger",
+  "ストリートファイター6の非公式大会ファンイラスト": "Fan illustration for an unofficial Street Fighter 6 tournament",
+  "ストリートファイター6の非公式大会ファンイラストを大きく見る": "View the fan illustration for an unofficial Street Fighter 6 tournament larger",
   "ゲームキャラクターのデフォルメ": "Stylized game characters",
   "ゲームキャラクターのデフォルメを大きく見る": "View Stylized game characters larger",
   "人物の全身イラスト": "A full-body character illustration",
@@ -230,6 +231,7 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   const bar = document.createElement('div');
   bar.className = 'art-viewer-header';
   const caption = document.createElement('p');
+  caption.hidden = document.body.classList.contains('portrait-page');
   const close = document.createElement('button');
   close.type = 'button';
   close.textContent = '閉じる';
