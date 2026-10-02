@@ -1,4 +1,6 @@
-.about .portrait img{mix-blend-mode:normal;max-height:480px;filter:drop-shadow(0 12px 12px #734c3020)}
+.about{grid-template-columns:1fr 1.2fr;gap:60px}
+.about .portrait img{mix-blend-mode:normal;max-height:560px;filter:drop-shadow(0 12px 12px #734c3020)}
+@media(max-width:760px){.about{grid-template-columns:1fr;gap:20px}.about .portrait{width:calc(100% + 24px);max-width:420px;justify-self:center}.about .portrait img{max-height:420px}}
 .about-contact{margin-top:22px}
 .choroli-feature{padding-top:60px}
 .choroli-spotlight{overflow:hidden;border:1px solid #e8d7bd;border-radius:26px;background:#fffaf0}

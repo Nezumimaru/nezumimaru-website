@@ -6,3 +6,4 @@
 .art-viewer:not(.art-viewer-tall) img{max-height:calc(94svh - 110px);object-fit:contain}
 
 .kurume-comic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:760px){.kurume-comic-grid{grid-template-columns:1fr}.kurume-comic-grid img{height:320px}}
+.essay-heading h3{font-size:clamp(25px,3vw,36px);line-height:1.6;margin:18px 0}

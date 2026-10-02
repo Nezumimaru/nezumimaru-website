@@ -35,7 +35,7 @@ if (portrait && 'IntersectionObserver' in window && !preference.matches) {
       portrait.classList.add('portrait-arrived');
       observer.disconnect();
     }
-  }, {threshold: 0.18});
+  }, {threshold: 0.2, rootMargin: '0px 0px -60px 0px'});
   portrait.classList.add('portrait-waiting');
   observer.observe(portrait);
   preference.addEventListener('change', () => {

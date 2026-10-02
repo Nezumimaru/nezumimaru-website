@@ -7,8 +7,8 @@
 .motion-toggle{font:inherit;font-size:11px;letter-spacing:.03em;border:1px solid var(--line);border-radius:20px;padding:5px 12px;color:var(--muted);background:var(--paper);cursor:pointer;white-space:nowrap}
 .motion-toggle:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 .hero-foot{gap:12px}
-.portrait-waiting{opacity:0;transform:translateY(36px) rotate(-3deg) scale(.96)}
-.portrait-waiting.portrait-arrived{opacity:1;transform:none;transition:opacity 1.15s ease,transform 1.3s cubic-bezier(.2,.7,.2,1)}
+.portrait-waiting{opacity:0;transform:translateY(64px);transition:opacity 1.25s ease-out,transform 1.4s cubic-bezier(.22,.61,.36,1)}
+.portrait-waiting.portrait-arrived{opacity:1;transform:translateY(0)}
 @keyframes gentle-drift-right{from{transform:translateX(-50%)}to{transform:translateX(0)}}
 @media(max-width:760px){.hero-track{width:2040vw;animation-duration:450s}.hero-group{gap:12px;padding-right:12px}.hero-foot{flex-wrap:wrap;height:auto;min-height:65px;padding:10px 0}.hero-foot>span{letter-spacing:.08em;font-size:9px}.motion-toggle{padding:4px 9px}}
 @media(prefers-reduced-motion:reduce){.hero-track{animation:none;transform:none;will-change:auto}.portrait-waiting,.portrait-waiting.portrait-arrived{opacity:1;transform:none;transition:none}.motion-toggle{display:none}.hero-art.has-motion{overflow-x:auto}.hero-track{width:400%}.hero-group{width:100%}.hero-group[aria-hidden]{display:none}@media(max-width:760px){.hero-track{width:1020vw}}}
