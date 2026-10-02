@@ -72,3 +72,6 @@ html[lang="en"] .news-embed>a::after{content:'See pinned and recent posts on my 
 @media(max-width:760px){.category-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.category-art{height:150px;padding:10px}.category-label{padding:13px 12px;gap:5px}.category-label h3{font-size:14px}.category-label .eyebrow{font-size:9px;letter-spacing:.04em}.category-label .link-mark{width:23px;height:23px;font-size:10px}.work-categories .section-head>p{font-size:13px}}
 @media(max-width:360px){.category-label{padding:12px 9px}.category-label h3{font-size:14px}.category-art{height:130px}}
 @media(prefers-reduced-motion:reduce){.category-card{transition:none}.category-card:hover{transform:none}}
+
+/* The opening comic panel stays intact within the compact category card. */
+.category-art .comic-card-preview{display:block;width:100%;height:100%;overflow:hidden}
