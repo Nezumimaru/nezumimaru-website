@@ -84,10 +84,10 @@ html[lang="en"] .news-embed>a::after{content:'See pinned and recent posts on my 
 .events-lead{margin:18px 0 26px;line-height:1.9}
 .events-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
 .event-card{min-width:0;display:flex;flex-direction:column;overflow:hidden;border:1px solid #e3d4bf;border-radius:24px;background:#fffaf2}
-.event-art{display:grid;place-items:center;height:200px;padding:16px;background:#eee7dc}
+.event-art{display:block;height:200px;padding:16px;overflow:hidden;background:#eee7dc}
 .event-exhibition .event-art{background:#e8e4ee}
 .event-kurume .event-art{background:#e4eee8}
-.event-art img{display:block;width:100%;height:100%;object-fit:contain}
+.event-art img{display:block;width:100%;height:168px!important;object-fit:contain}
 .event-copy{display:flex;flex:1;flex-direction:column;padding:25px 28px 28px}
 .event-category{margin:0 0 8px;color:#a25239;font-weight:700;font-size:12px;letter-spacing:.08em}
 .event-date{font-size:clamp(18px,2.2vw,25px);font-weight:700;letter-spacing:.035em;line-height:1.6;margin:0 0 9px}
@@ -107,3 +107,4 @@ html[lang="en"] .news-embed>a::after{content:'See pinned and recent posts on my 
 .event-next .event-conditional{color:#745f7b}
 .events-section>.news-note{line-height:1.8}
 @media(max-width:760px){.events-grid{grid-template-columns:1fr;gap:20px}.events-lead{font-size:13px}.event-art{height:180px}.event-copy{padding:21px 20px 24px}.event-copy h3{font-size:23px}.event-date{font-size:21px}.event-facts>div{grid-template-columns:82px minmax(0,1fr);gap:8px}.event-next{grid-template-columns:1fr;gap:15px;padding:22px 20px}.event-vote-date{font-size:20px}.event-actions{gap:12px}.events-section .news-heading{scroll-margin-top:100px}}
+@media(max-width:760px){.event-art img{height:148px!important}}
