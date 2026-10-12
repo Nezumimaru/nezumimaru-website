@@ -558,3 +558,21 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "久留米への想いと、ふたりの漫画を特設ページにまとめました。": "Explore our hopes for Kurume and the duo’s comics on a dedicated page.",
   "久留米ぐるめ旅の特設ページへ": "Explore the Kurume Food Journey"
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "くるめにきたよ！": "We’re in Kurume!",
+  "01.くるめにきたよ！": "01. We’re in Kurume!",
+  "01.くるめにきたよ！を大きく見る": "View 01. We’re in Kurume! larger",
+  "観光はあさってから": "Sightseeing starts the day after tomorrow",
+  "02.観光はあさってから": "02. Sightseeing starts the day after tomorrow",
+  "02.観光はあさってからを大きく見る": "View 02. Sightseeing starts the day after tomorrow larger",
+  "ラーメンがたべたい": "I want to eat ramen",
+  "03.ラーメンがたべたい": "03. I want to eat ramen",
+  "03.ラーメンがたべたいを大きく見る": "View 03. I want to eat ramen larger",
+  "続・ラーメンがたべたい": "More: I want to eat ramen",
+  "04.続・ラーメンがたべたい": "04. More: I want to eat ramen",
+  "04.続・ラーメンがたべたいを大きく見る": "View 04. More: I want to eat ramen larger",
+  "かっぱさんにあいたい": "I want to meet a kappa",
+  "05.かっぱさんにあいたい": "05. I want to meet a kappa",
+  "05.かっぱさんにあいたいを大きく見る": "View 05. I want to meet a kappa larger"
+});
