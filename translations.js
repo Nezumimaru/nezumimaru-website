@@ -576,3 +576,17 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "05.かっぱさんにあいたい": "05. I want to meet a kappa",
   "05.かっぱさんにあいたいを大きく見る": "View 05. I want to meet a kappa larger"
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "缶バッジ": "Badges",
+  "缶バッジの絵柄が": "Our badge designs",
+  "できました！": "are ready!",
+  "ぜんぶ描きおろし・全12種類": "12 designs, all newly illustrated",
+  "久留米のグルメや、ふたりの漫画のひとコマが缶バッジに。ちょろりとちゃまるのいろんな表情を、ぎゅっと詰めこみました。": "Kurume’s food and moments from the duo’s comics become badges, filled with Choroli and Chamaru’s many expressions.",
+  "画像をタッチすると、全12種類の絵柄と販売のお知らせを大きくご覧いただけます。": "Tap the image to see all 12 designs and the sales announcement in a larger view.",
+  "販売期間・場所を見る": "View sales dates and locations",
+  "久留米缶バッジ全12種類と販売のお知らせを大きく見る": "Enlarge the 12 Kurume badge designs and sales announcement",
+  "ねずみのちょろり・久留米缶バッジ全12種類と販売のお知らせ": "Choroli: all 12 Kurume badge designs and sales announcement",
+  "久留米缶バッジ全12種類と販売のお知らせ": "The 12 Kurume badge designs and sales announcement",
+  "缶バッジ全12種類の絵柄が完成しました！": "All 12 badge designs are ready!"
+});
