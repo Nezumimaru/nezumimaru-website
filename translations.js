@@ -590,3 +590,9 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "久留米缶バッジ全12種類と販売のお知らせ": "The 12 Kurume badge designs and sales announcement",
   "缶バッジ全12種類の絵柄が完成しました！": "All 12 badge designs are ready!"
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "食いしん坊ねずみのちょろりと": "Choroli, the little mouse who loves to eat,",
+  "気まぐれハムスターのちゃまる。": "and Chamaru, the whimsical hamster.",
+  "気付けばそばに、ちょろりっと。": "Before you know it, they’re right by your side."
+});

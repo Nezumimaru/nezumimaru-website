@@ -108,3 +108,5 @@ html[lang="en"] .news-embed>a::after{content:'See pinned and recent posts on my 
 .events-section>.news-note{line-height:1.8}
 @media(max-width:760px){.events-grid{grid-template-columns:1fr;gap:20px}.events-lead{font-size:13px}.event-art{height:180px}.event-copy{padding:21px 20px 24px}.event-copy h3{font-size:23px}.event-date{font-size:21px}.event-facts>div{grid-template-columns:82px minmax(0,1fr);gap:8px}.event-next{grid-template-columns:1fr;gap:15px;padding:22px 20px}.event-vote-date{font-size:20px}.event-actions{gap:12px}.events-section .news-heading{scroll-margin-top:100px}}
 @media(max-width:760px){.event-art img{height:148px!important}}
+
+.choroli-brand-logo{width:min(100%,280px);height:auto}.choroli-details .choroli-main-copy{font-size:17px;line-height:2.1;margin-bottom:18px}@media(max-width:760px){.choroli-brand-logo{width:min(100%,250px);margin:0 auto}.choroli-details .choroli-main-copy{font-size:15px;line-height:2.2}}
