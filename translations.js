@@ -613,3 +613,8 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "キャラ久留米公式サイトへ": "Visit the official Chara Kurume website",
   "キャラ久留米公式サイトへ（別タブで開きます）": "Visit the official Chara Kurume website (opens in a new tab)"
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "声・BGM入り・26秒": "Narration & background music · 26 seconds",
+  "キャラ久留米 ファイナリスト告知動画（声・BGM入り）": "Chara Kurume finalist announcement video with narration and background music"
+});
