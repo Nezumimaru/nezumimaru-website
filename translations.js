@@ -618,3 +618,24 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "声・BGM入り・26秒": "Narration & background music · 26 seconds",
   "キャラ久留米 ファイナリスト告知動画（声・BGM入り）": "Chara Kurume finalist announcement video with narration and background music"
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "くるめぐるめたびへ！": "Off on a Kurume food journey!",
+  "01.くるめぐるめたびへ！": "01. Off on a Kurume food journey!",
+  "01.くるめぐるめたびへ！を大きく見る": "View 01. Off on a Kurume food journey! larger",
+  "くるめにきたよ！": "We’re in Kurume!",
+  "02.くるめにきたよ！": "02. We’re in Kurume!",
+  "02.くるめにきたよ！を大きく見る": "View 02. We’re in Kurume! larger",
+  "観光はあさってから": "Sightseeing starts the day after tomorrow",
+  "03.観光はあさってから": "03. Sightseeing starts the day after tomorrow",
+  "03.観光はあさってからを大きく見る": "View 03. Sightseeing starts the day after tomorrow larger",
+  "ラーメンがたべたい": "I want to eat ramen",
+  "04.ラーメンがたべたい": "04. I want to eat ramen",
+  "04.ラーメンがたべたいを大きく見る": "View 04. I want to eat ramen larger",
+  "続・ラーメンがたべたい": "More: I want to eat ramen",
+  "05.続・ラーメンがたべたい": "05. More: I want to eat ramen",
+  "05.続・ラーメンがたべたいを大きく見る": "View 05. More: I want to eat ramen larger",
+  "かっぱさんにあいたい": "I want to meet a kappa",
+  "06.かっぱさんにあいたい": "06. I want to meet a kappa",
+  "06.かっぱさんにあいたいを大きく見る": "View 06. I want to meet a kappa larger"
+});
