@@ -596,3 +596,15 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "気まぐれハムスターのちゃまる。": "and Chamaru, the whimsical hamster.",
   "気付けばそばに、ちょろりっと。": "Before you know it, they’re right by your side."
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "動画": "Video",
+  "ファイナリスト決定の": "Our finalist announcement,",
+  "お知らせを、動画で。": "now in video.",
+  "声入り・26秒": "With narration · 26 seconds",
+  "ちょろりとちゃまるの旅が、久留米へ。ファイナリスト決定のお知らせを、声入りの動画でもご覧いただけます。": "Choroli and Chamaru’s journey continues to Kurume. Watch the finalist announcement in this narrated video.",
+  "再生ボタンを押すと、音声と一緒に動画が流れます。": "Press play to watch the video with sound.",
+  "動画が再生できない場合はこちら": "Open the video if playback does not work",
+  "キャラ久留米 ファイナリスト告知動画（声入り）": "Chara Kurume finalist announcement video with narration",
+  "動画を開く": "Open the video"
+});
