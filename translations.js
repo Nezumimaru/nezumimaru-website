@@ -639,3 +639,9 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "06.かっぱさんにあいたい": "06. I want to meet a kappa",
   "06.かっぱさんにあいたいを大きく見る": "View 06. I want to meet a kappa larger"
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "おそろいをきよう": "Let’s wear matching outfits",
+  "07.おそろいをきよう": "07. Let’s wear matching outfits",
+  "07.おそろいをきようを大きく見る": "View 07. Let’s wear matching outfits larger"
+});
