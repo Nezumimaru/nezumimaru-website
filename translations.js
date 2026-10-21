@@ -657,6 +657,7 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "答えの画像を大きく見る ↗": "View a larger answer image ↗",
   "久留米ぐるめ旅へ戻る": "Back to our Kurume food journey",
   "久留米ぐるめ旅へ": "Our Kurume food journey",
-  "ページのメニュー": "Page navigation"
+  "ページのメニュー": "Page navigation",
+  "画像をタップすると、大きくご覧いただけます。": "Tap the image to view it larger."
 });
 
