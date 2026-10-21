@@ -645,3 +645,18 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "07.おそろいをきよう": "07. Let’s wear matching outfits",
   "07.おそろいをきようを大きく見る": "View 07. Let’s wear matching outfits larger"
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "キャラ久留米特別編": "Chara Kurume Special",
+  "まちがいさがしのこたえ": "Spot the Difference: Answers",
+  "冊子を読んで、遊んでくれてありがとう！": "Thank you for reading our booklet and playing along!",
+  "7つのまちがい、ぜんぶ見つけられたかな？": "Did you find all seven differences?",
+  "下の絵の赤丸が、まちがいの場所だよ。": "The red circles in the lower picture show the differences.",
+  "まちがいさがしの答えを大きく見る": "View the answers in a larger image",
+  "久留米ぐるめ旅のまちがいさがし。下の絵の7か所に赤丸で答えを示しています。": "Kurume food journey puzzle. Seven red circles in the lower picture show the answers.",
+  "答えの画像を大きく見る ↗": "View a larger answer image ↗",
+  "久留米ぐるめ旅へ戻る": "Back to our Kurume food journey",
+  "久留米ぐるめ旅へ": "Our Kurume food journey",
+  "ページのメニュー": "Page navigation"
+});
+
