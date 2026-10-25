@@ -661,3 +661,25 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "画像をタップすると、大きくご覧いただけます。": "Tap the image to view it larger."
 });
 
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "キャラ久留米2026・部門2": "Chara Kurume 2026 · Division 2",
+  "WEB投票受付中": "WEB VOTING OPEN",
+  "くるみも、一次選考通過！": "Kurumi has passed the first round too!",
+  "久留米のKurumi（くるみ）": "Kurumi of Kurume",
+  "「キャラクター創作部門」の一次選考を通過し、二次選考に進みました！応援してくださった皆さん、ありがとうございます。": "Kurumi has passed the first round of the Character Creation Division and advanced to the second round! Thank you for your support.",
+  "WEB投票期間（日本時間）": "WEB VOTING · JAPAN TIME",
+  "10/25（日）20:30": "Oct 25 (Sun) 20:30",
+  "10/29（木）23:59": "Oct 29 (Thu) 23:59",
+  "公式投票ページで「久留米のKurumi(くるみ)」を選んで応援してください。1人1日1回、同じ作品に投票できます。": "Please choose “久留米のKurumi(くるみ)” on the official voting page. You can vote for the same entry once per person per day.",
+  "くるみのWEB投票ページへ ↗": "Go to the official vote for Kurumi ↗",
+  "公式のX投稿で応援する ↗": "Support Kurumi on the official X post ↗",
+  "くるみの紹介・作品を見る": "Meet Kurumi and explore her art",
+  "くるみの漫画とイラストを見る": "Read Kurumi’s comics and see her art",
+  "くるみの紹介・作品を見る →": "Meet Kurumi and explore her art →",
+  "くるみの漫画とイラストを見る →": "Read Kurumi’s comics and see her art →",
+  "久留米のKurumi（くるみ）のキャラクターイラスト": "Character illustration of Kurumi of Kurume",
+  "くるみの投票": "Vote for Kurumi",
+  "WEB投票は終了しました": "WEB VOTING HAS ENDED",
+  "公式の投票ページを見る ↗": "View the official voting page ↗",
+  "2026年10月25日更新。最新の日程・販売情報は各イベントの案内をご確認ください。": "Updated October 25, 2026. Please check the event announcements for the latest schedules and sales information."
+});

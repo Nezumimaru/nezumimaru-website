@@ -1,0 +1,17 @@
+.kurumi-vote{display:grid;grid-template-columns:minmax(190px,.75fr) minmax(0,1.6fr);align-items:center;gap:36px;padding:30px;margin:26px 0 30px;background:#edf0f6;border:1px solid #cbd4df;border-radius:24px;scroll-margin-top:130px}
+.kurumi-vote-art{display:block;max-width:270px;width:100%;justify-self:center;border-radius:16px;overflow:hidden;background:#fff}
+.kurumi-vote-art img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+.kurumi-vote-copy{min-width:0}.kurumi-vote-copy p{font-size:14px;line-height:1.9;margin:12px 0}
+.kurumi-vote-copy .kurumi-vote-category{font-size:12px;color:#4b607e;font-weight:700;letter-spacing:.06em;margin:0 0 8px}
+.kurumi-vote-copy .kurumi-vote-status{display:inline-block;background:#496483;color:#fff;padding:4px 13px;border-radius:20px;font-size:12px;font-weight:700;margin:0 0 14px}
+.kurumi-vote-copy h2,.kurumi-vote-copy h3{font-size:clamp(22px,2.6vw,29px);line-height:1.6;letter-spacing:.03em;margin:0 0 8px}
+.kurumi-vote-copy .kurumi-vote-name{font-size:17px;font-weight:700;margin:0 0 12px;color:#3d526f}
+.kurumi-vote-copy .kurumi-vote-period{padding:12px 16px;border-radius:12px;background:#fffdf8;font-size:16px;font-weight:700;line-height:1.8}
+.kurumi-vote-period>span:first-child{display:block;font-size:11px;letter-spacing:.06em;font-weight:400;color:#6b6b70}
+.kurumi-vote-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px 20px;margin-top:18px}
+.kurumi-vote-primary{display:inline-block;text-decoration:none;padding:12px 22px;border-radius:30px;background:#405c7b;border:1px solid #405c7b;color:#fff;font-size:14px;font-weight:700;line-height:1.8}
+.kurumi-vote-primary:hover{background:#314964}.kurumi-vote-social,.kurumi-vote-more{font-size:13px;line-height:1.8}
+.kurumi-vote-more{display:inline-block;margin-top:18px;color:#405c7b}.kurumi-vote-wrap{padding-top:20px;padding-bottom:20px}.kurumi-vote-wrap .kurumi-vote{margin:24px 0}
+.kurumi-vote.is-ended .kurumi-vote-status{background:#737880}
+.kurumi-vote [hidden]{display:none!important}
+@media(max-width:760px){.kurumi-vote{grid-template-columns:1fr;gap:22px;padding:22px 20px;border-radius:20px;scroll-margin-top:110px}.kurumi-vote-art{max-width:220px}.kurumi-vote-copy h2,.kurumi-vote-copy h3{font-size:23px}.kurumi-vote-copy p{font-size:13px}.kurumi-vote-copy .kurumi-vote-period{font-size:15px;padding:12px}.kurumi-vote-actions{align-items:stretch;flex-direction:column;gap:15px}.kurumi-vote-primary{text-align:center;padding:12px 15px}.kurumi-vote-social{text-align:center}.kurumi-vote-wrap{padding-top:0;padding-bottom:0}}
