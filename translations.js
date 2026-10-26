@@ -683,3 +683,16 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "公式の投票ページを見る ↗": "View the official voting page ↗",
   "2026年10月25日更新。最新の日程・販売情報は各イベントの案内をご確認ください。": "Updated October 25, 2026. Please check the event announcements for the latest schedules and sales information."
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "作者に会える日": "MEET THE ARTIST",
+  "ねずみまる、久留米に行きます！": "Nezumimaru is coming to Kurume!",
+  "2026年11月10日（火）": "Tuesday, November 10, 2026",
+  "キャラ久留米ガチャの横で売り子をします。": "I will be selling beside the Chara Kurume capsule machines.",
+  "ちょろりとちゃまるの久留米ぐるめ漫画の冊子や、目印チャームなど、新作を制作中です。作者に会いに来てもらえたらうれしいです！": "I’m making new items, including a booklet of Choroli and Chamaru’s Kurume food comics and marker charms. I’d love to meet you there!",
+  "久留米滞在：11月9日（月）夕方〜11月11日（水）昼": "In Kurume from the evening of Nov 9 (Mon) to midday on Nov 11 (Wed).",
+  "訪問のお知らせをXで見る ↗": "Read the visit announcement on X ↗",
+  "久留米訪問のお知らせをXで見る": "Read the Kurume visit announcement on X",
+  "ねずみまる 久留米に行きます！11月10日（火）久留米駅。ちょろりとちゃまるのグッズと共に。": "Nezumimaru is coming to Kurume Station on Tuesday, November 10, with Choroli and Chamaru goods.",
+  "2026年10月26日更新。最新の日程・販売情報は各イベントの案内をご確認ください。": "Updated October 26, 2026. Please check the event announcements for the latest schedules and sales information."
+});
