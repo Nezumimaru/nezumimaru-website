@@ -1,6 +1,6 @@
 window.NEZUMIMARU_TRANSLATIONS = {
   "絵描きのねずみまる｜ちいさなおえかき絵本": "Nezumimaru | A Little Picture Book",
-  "← トップにもどる": "← Back to home",
+  "▶ トップにもどる": "▶ Back to home",
   "ねずみまるについて": "About Nezumimaru",
   "絵を描いているひと": "The artist behind the pictures",
   "絵筆を持ったねずみまると、手の上でほほえむねずみのプロフィールイラスト": "Nezumimaru holding a paintbrush, with a smiling mouse on her hand",
@@ -13,7 +13,7 @@ window.NEZUMIMARU_TRANSLATIONS = {
   "絵のなかの小さなぬくもりを、": "I hope you enjoy the little moments of warmth",
   "楽しんでもらえたらうれしいです。": "inside each picture.",
   "これからも、一枚ずつ。": "One picture at a time.",
-  "← トップへ": "← Home",
+  "▶ トップへ": "▶ Home",
   "キャラクターデザイン": "Character Design",
   "画像をタッチすると、大きくご覧いただけます。": "Tap an image to see it larger.",
   "ねずみのちょろり": "Choroli the Mouse",
@@ -271,7 +271,7 @@ window.NEZUMIMARU_TRANSLATIONS = {
   "言葉を読む": "Read my stories",
   "声を聴く": "Listen in",
   "掲載イラストの無断転載・無断使用・AI学習利用はご遠慮ください。": "Please do not reproduce, use or train AI on these illustrations without permission.",
-  "← 制作実績一覧へ": "← Back to the portfolio",
+  "▶ 制作実績一覧へ": "▶ Back to the portfolio",
   "ねずみまるの制作実績": "Nezumimaru's Portfolio",
   "個人活動用のロゴ２種類。パレットをモチーフにしたマークと、横長のロゴをご紹介します。": "Two logos for my creative work: a palette-inspired mark and a horizontal wordmark.",
   "ねずみまるのパレットロゴ": "Nezumimaru palette logo",
@@ -503,7 +503,7 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {"いまのお知らせ": "Latest 
 
 Object.assign(window.NEZUMIMARU_TRANSLATIONS, {"2026年9月30日時点の固定ポスト":"Pinned post as of September 30, 2026","ちょろりとちゃまるを、久留米のガチャガチャにしたい！":"Choroli and Chamaru for a Kurume capsule toy!","「#キャラ久留米」の二次選考が始まりました。応募イラストの元になった漫画も、Xの投稿でご覧いただけます。":"The second round of #CharacterKurume is underway. See the comic behind this entry on X.","ポストと漫画を見る":"See the post and comic","ちょろりとちゃまるの久留米応募作品の投稿を見る":"View the Kurume entry featuring Choroli and Chamaru","ちょろりとちゃまるが久留米のラーメンを楽しむ応募イラスト":"Choroli and Chamaru enjoy Kurume ramen in the submitted illustration","新しいお知らせや、現在の固定ポストは":"For the latest news and current pinned post, visit","Xのプロフィール":"my X profile","でご確認ください。":"."});
 
-Object.assign(window.NEZUMIMARU_TRANSLATIONS, {"作品の入口": "Explore my work", "気になるカテゴリから、作品をご覧ください。": "Choose a category to explore my work.", "キャラクター": "Characters", "似顔絵": "Portraits", "ホームページ": "Websites", "漫画・ゲーム": "Comics & games", "作品を見る": "View my work", "作品の入口へ戻る": "Back to portfolio categories", "← 作品の入口へ": "← Portfolio categories"});
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {"作品の入口": "Explore my work", "気になるカテゴリから、作品をご覧ください。": "Choose a category to explore my work.", "キャラクター": "Characters", "似顔絵": "Portraits", "ホームページ": "Websites", "漫画・ゲーム": "Comics & games", "作品を見る": "View my work", "作品の入口へ戻る": "Back to portfolio categories", "▶ 作品の入口へ": "▶ Portfolio categories"});
 
 Object.assign(window.NEZUMIMARU_TRANSLATIONS, {"2026年10月7日のお知らせ": "Update: October 7, 2026", "キャラ久留米のファイナリストに選ばれました！": "Selected as a Character Kurume finalist!", "ちょろりとちゃまるが「キャラ久留米」のファイナリストに！SNS反応・Web一般投票ともに3位をいただき、久留米へ行けることになりました。": "Choroli and Chamaru are Character Kurume finalists! With third place in both social media engagement and the public web vote, I will be heading to Kurume.", "応援してくださった皆さん、ありがとうございます。ちょろりたちの旅の続きを描きながら、缶バッジでの優勝を目指します！": "Thank you to everyone who supported us! I will keep drawing the next chapter of their journey and aim for first place in the badge competition.", "Xでお知らせを見る": "Read the update on X", "キャラ久留米のファイナリスト決定の投稿を見る": "View the Character Kurume finalist announcement"});
 
@@ -540,9 +540,9 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "一緒に楽しんでください。": "and enjoy the journey with us.",
   "「戦い」というより、ここまでの道中もすでに楽しいこの企画。皆さんにも、ふたりと一緒に旅を楽しんでもらえたらうれしいです！": "More than a competition, this project has already been such a fun journey. I’d love for you to enjoy the adventure with these two!",
   "キャラ久留米2026の部門1で、ねずみのちょろりがファイナリストに選ばれました。SNS反応・Web一般投票ともに3位。次は、缶バッジの応援ガチャ販売へ進みます。": "Choroli was selected as a Division 1 finalist in Chara Kurume 2026, placing third in both social media response and the public web vote. Next comes the badge gacha sales stage.",
-  "ファイナリスト決定の投稿を見る ↗": "Read the finalist announcement ↗",
+  "ファイナリスト決定の投稿を見る ▶": "Read the finalist announcement ▶",
   "部門2は現在挑戦中です。二次選考に進出した場合、SNS・Web投票の期間は2026年10月25日〜29日です。": "We’re also taking on Division 2. If selected for the second round, social media and web voting will run October 25–29, 2026.",
-  "部門2の公式スケジュールを見る ↗": "View the official Division 2 schedule ↗",
+  "部門2の公式スケジュールを見る ▶": "View the official Division 2 schedule ▶",
   "キャラ久留米2026 部門1": "Chara Kurume 2026 — Division 1",
   "応援ガチャ販売": "Support badge gacha sales",
   "JR久留米駅での販売": "Sales at JR Kurume Station",
@@ -654,7 +654,7 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "下の絵の赤丸が、まちがいの場所だよ。": "The red circles in the lower picture show the differences.",
   "まちがいさがしの答えを大きく見る": "View the answers in a larger image",
   "久留米ぐるめ旅のまちがいさがし。下の絵の7か所に赤丸で答えを示しています。": "Kurume food journey puzzle. Seven red circles in the lower picture show the answers.",
-  "答えの画像を大きく見る ↗": "View a larger answer image ↗",
+  "答えの画像を大きく見る ▶": "View a larger answer image ▶",
   "久留米ぐるめ旅へ戻る": "Back to our Kurume food journey",
   "久留米ぐるめ旅へ": "Our Kurume food journey",
   "ページのメニュー": "Page navigation",
@@ -671,16 +671,16 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "10/25（日）20:30": "Oct 25 (Sun) 20:30",
   "10/29（木）23:59": "Oct 29 (Thu) 23:59",
   "公式投票ページで「久留米のKurumi(くるみ)」を選んで応援してください。1人1日1回、同じ作品に投票できます。": "Please choose “久留米のKurumi(くるみ)” on the official voting page. You can vote for the same entry once per person per day.",
-  "くるみのWEB投票ページへ ↗": "Go to the official vote for Kurumi ↗",
-  "公式のX投稿で応援する ↗": "Support Kurumi on the official X post ↗",
+  "くるみのWEB投票ページへ ▶": "Go to the official vote for Kurumi ▶",
+  "公式のX投稿で応援する ▶": "Support Kurumi on the official X post ▶",
   "くるみの紹介・作品を見る": "Meet Kurumi and explore her art",
   "くるみの漫画とイラストを見る": "Read Kurumi’s comics and see her art",
-  "くるみの紹介・作品を見る →": "Meet Kurumi and explore her art →",
-  "くるみの漫画とイラストを見る →": "Read Kurumi’s comics and see her art →",
+  "くるみの紹介・作品を見る ▶": "Meet Kurumi and explore her art ▶",
+  "くるみの漫画とイラストを見る ▶": "Read Kurumi’s comics and see her art ▶",
   "久留米のKurumi（くるみ）のキャラクターイラスト": "Character illustration of Kurumi of Kurume",
   "くるみの投票": "Vote for Kurumi",
   "WEB投票は終了しました": "WEB VOTING HAS ENDED",
-  "公式の投票ページを見る ↗": "View the official voting page ↗",
+  "公式の投票ページを見る ▶": "View the official voting page ▶",
   "2026年10月25日更新。最新の日程・販売情報は各イベントの案内をご確認ください。": "Updated October 25, 2026. Please check the event announcements for the latest schedules and sales information."
 });
 
@@ -691,7 +691,7 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "キャラ久留米ガチャの横で売り子をします。": "I will be selling beside the Chara Kurume capsule machines.",
   "ちょろりとちゃまるの久留米ぐるめ漫画の冊子や、目印チャームなど、新作を制作中です。作者に会いに来てもらえたらうれしいです！": "I’m making new items, including a booklet of Choroli and Chamaru’s Kurume food comics and marker charms. I’d love to meet you there!",
   "久留米滞在：11月9日（月）夕方〜11月11日（水）昼": "In Kurume from the evening of Nov 9 (Mon) to midday on Nov 11 (Wed).",
-  "訪問のお知らせをXで見る ↗": "Read the visit announcement on X ↗",
+  "訪問のお知らせをXで見る ▶": "Read the visit announcement on X ▶",
   "久留米訪問のお知らせをXで見る": "Read the Kurume visit announcement on X",
   "ねずみまる 久留米に行きます！11月10日（火）久留米駅。ちょろりとちゃまるのグッズと共に。": "Nezumimaru is coming to Kurume Station on Tuesday, November 10, with Choroli and Chamaru goods.",
   "2026年10月26日更新。最新の日程・販売情報は各イベントの案内をご確認ください。": "Updated October 26, 2026. Please check the event announcements for the latest schedules and sales information."
@@ -778,7 +778,7 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "AI画像の修正": "AI image edits",
   "Nコレ大阪賞（会場投票1位）": "N Collection Osaka Award · first in the venue vote",
   "ユニット「夢想詩葉」／AI×手描き": "Unit 夢想詩葉 · AI × hand drawing",
-  "AI×手描きの制作事例を見る →": "Explore AI × hand-drawn work →",
+  "AI×手描きの制作事例を見る ▶": "Explore AI × hand-drawn work ▶",
   "AI画像の手描き修正・加筆": "Hand-drawn AI image retouching",
   "AI画像の手描き修正・加筆は、内容に応じて個別にお見積もりします。": "Hand-drawn AI image retouching is quoted individually according to the work required.",
   "対応内容と制作事例を見る": "See services and examples",
@@ -787,12 +787,12 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
 });
 
 Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
-  "受賞の詳細をXで見る ↗": "Read the award details on X ↗",
+  "受賞の詳細をXで見る ▶": "Read the award details on X ▶",
   "Twitter部門 最優秀賞（1位）": "Twitter category · Grand Prize (first place)",
   "MZDAO PRコンテスト Twitter部門 最優秀賞（1位）": "MZDAO PR Contest · Twitter category Grand Prize (first place)",
   "25万人規模のコミュニティで開催": "Held within a community of around 250,000 members",
   "25万人規模のMZDAOコミュニティで開催されたPRコンテストのTwitter部門で、最優秀賞（1位）を受賞しました。": "Awarded the Twitter category Grand Prize (first place) in the PR contest held within MZDAO, a community of around 250,000 members.",
-  "受賞までのお話を読む ↗": "Read the story behind the award ↗",
+  "受賞までのお話を読む ▶": "Read the story behind the award ▶",
   "大阪・関西万博のデジタルアート展で優秀賞を受賞した、ちょろりたちのイラスト": "Choroli and friends illustration, Excellence Award winner at the Expo 2025 Digital Art Exhibition",
   "JR山手線3駅で展示された、ちょろりのまちがいさがし": "Choroli spot-the-difference illustration displayed at three JR Yamanote Line stations",
   "Nコレ大阪賞を受賞したユニット夢想詩葉の作品": "N Collection Osaka Award-winning work by the unit 夢想詩葉"

@@ -61,7 +61,7 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "イラスト、キャラクター、PR漫画。作品と一緒に、これまでの受賞・展示・掲載をご紹介します。": "Explore illustration, character design and promotional comics through awards, exhibitions and publications.",
   "受賞・展示と作品": "Awards, Exhibitions & Art",
   "受賞・展示と作品｜ねずみまる 公式ホームページ": "Awards, Exhibitions & Art | Nezumimaru Official Website",
-  "← 活動歴へ": "← Activity history",
+  "▶ 活動歴へ": "▶ Activity history",
   "受賞作品": "Award-winning works",
   "展示されたイラスト": "Exhibited illustration",
   "主な展示・掲載": "Selected exhibitions & publications",

@@ -1,7 +1,7 @@
 Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "イラスト／まちがいさがし": "Illustration / Puzzles",
-  "← イラスト／まちがいさがしへ": "← Illustration / Puzzles",
-  "← 漫画・ゲームへ": "← Comics & Game Art",
+  "▶ イラスト／まちがいさがしへ": "▶ Illustration / Puzzles",
+  "▶ 漫画・ゲームへ": "▶ Comics & Game Art",
   "日々の発見を、親しみやすい物語に。": "Turning everyday discoveries into inviting stories.",
   "Xで50万回以上表示された旅行エッセイ漫画": "A travel comic with over 500,000 views on X",
   "丸ごと1匹たこやき食べた話": "The Takoyaki with a Whole Octopus Inside",
@@ -67,4 +67,4 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
 });
 Object.assign(window.NEZUMIMARU_TRANSLATIONS, {"イラスト／まちがいさがし｜ねずみまる 公式ホームページ": "Illustration & Puzzles | Nezumimaru Official Website", "まちがいさがし制作｜ねずみまる 公式ホームページ": "Spot-the-Difference Illustration | Nezumimaru Official Website", "猪狩工務店の広報誌に描いた、春のお花見のまちがいさがし": "Cherry blossom picnic puzzle for Igari Construction’s newsletter", "春のお花見のまちがいさがしを大きく見る（新しいタブ）": "Enlarge the cherry blossom picnic puzzle (new tab)"});
 
-Object.assign(window.NEZUMIMARU_TRANSLATIONS, {"まちがいさがしの拡大表示｜ねずみまる 公式ホームページ": "Spot-the-Difference Preview | Nezumimaru Official Website", "← まちがいさがしの制作例へ": "← Puzzle Illustrations", "まちがいさがしの制作例へ戻る": "Back to Puzzle Illustrations", "スマートフォンでは、ピンチ操作で拡大できます。": "On a phone, pinch to zoom in."});
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {"まちがいさがしの拡大表示｜ねずみまる 公式ホームページ": "Spot-the-Difference Preview | Nezumimaru Official Website", "▶ まちがいさがしの制作例へ": "▶ Puzzle Illustrations", "まちがいさがしの制作例へ戻る": "Back to Puzzle Illustrations", "スマートフォンでは、ピンチ操作で拡大できます。": "On a phone, pinch to zoom in."});
