@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nezumimaru.github.io/nezumimaru-website/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://nezumimaru.github.io/nezumimaru-website/</loc><lastmod>2026-10-28</lastmod></url>
   <url><loc>https://nezumimaru.github.io/nezumimaru-website/characters.html</loc></url>
   <url><loc>https://nezumimaru.github.io/nezumimaru-website/character-design.html</loc></url>
   <url><loc>https://nezumimaru.github.io/nezumimaru-website/portfolio.html</loc></url>
@@ -9,12 +9,13 @@
   <url><loc>https://nezumimaru.github.io/nezumimaru-website/puzzles.html</loc></url>
   <url><loc>https://nezumimaru.github.io/nezumimaru-website/princess.html</loc></url>
   <url><loc>https://nezumimaru.github.io/nezumimaru-website/portraits.html</loc></url>
-  <url><loc>https://nezumimaru.github.io/nezumimaru-website/contact.html</loc></url>
+  <url><loc>https://nezumimaru.github.io/nezumimaru-website/contact.html</loc><lastmod>2026-10-28</lastmod></url>
   <url><loc>https://nezumimaru.github.io/nezumimaru-website/illustrations.html</loc></url>
   <url><loc>https://nezumimaru.github.io/nezumimaru-website/web-design.html</loc></url>
   <url><loc>https://nezumimaru.github.io/nezumimaru-website/comics-games.html</loc></url>
-  <url><loc>https://nezumimaru.github.io/nezumimaru-website/pricing.html</loc></url>
+  <url><loc>https://nezumimaru.github.io/nezumimaru-website/pricing.html</loc><lastmod>2026-10-28</lastmod></url>
   <url><loc>https://nezumimaru.github.io/nezumimaru-website/spot-differences.html</loc></url>
-  <url><loc>https://nezumimaru.github.io/nezumimaru-website/awards.html</loc></url>
+  <url><loc>https://nezumimaru.github.io/nezumimaru-website/awards.html</loc><lastmod>2026-10-28</lastmod></url>
   <url><loc>https://nezumimaru.github.io/nezumimaru-website/kurume.html</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://nezumimaru.github.io/nezumimaru-website/ai-retouch.html</loc><lastmod>2026-10-28</lastmod></url>
 </urlset>
