@@ -785,3 +785,15 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "画像をタッチすると、大きくご覧いただけます。": "Tap an image to view it larger.",
   "制作事例の目次": "Example index"
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "受賞の詳細をXで見る ↗": "Read the award details on X ↗",
+  "Twitter部門 最優秀賞（1位）": "Twitter category · Grand Prize (first place)",
+  "MZDAO PRコンテスト Twitter部門 最優秀賞（1位）": "MZDAO PR Contest · Twitter category Grand Prize (first place)",
+  "25万人規模のコミュニティで開催": "Held within a community of around 250,000 members",
+  "25万人規模のMZDAOコミュニティで開催されたPRコンテストのTwitter部門で、最優秀賞（1位）を受賞しました。": "Awarded the Twitter category Grand Prize (first place) in the PR contest held within MZDAO, a community of around 250,000 members.",
+  "受賞までのお話を読む ↗": "Read the story behind the award ↗",
+  "大阪・関西万博のデジタルアート展で優秀賞を受賞した、ちょろりたちのイラスト": "Choroli and friends illustration, Excellence Award winner at the Expo 2025 Digital Art Exhibition",
+  "JR山手線3駅で展示された、ちょろりのまちがいさがし": "Choroli spot-the-difference illustration displayed at three JR Yamanote Line stations",
+  "Nコレ大阪賞を受賞したユニット夢想詩葉の作品": "N Collection Osaka Award-winning work by the unit 夢想詩葉"
+});
