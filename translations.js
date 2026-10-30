@@ -797,3 +797,14 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "JR山手線3駅で展示された、ちょろりのまちがいさがし": "Choroli spot-the-difference illustration displayed at three JR Yamanote Line stations",
   "Nコレ大阪賞を受賞したユニット夢想詩葉の作品": "N Collection Osaka Award-winning work by the unit 夢想詩葉"
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "投票終了・結果発表待ち": "VOTING CLOSED · AWAITING RESULTS",
+  "くるみのWEB投票が終了しました": "Web voting for Kurumi has ended",
+  "「キャラクター創作部門」のWEB投票は終了しました。たくさんの応援・投票をありがとうございました！": "Web voting in the Character Creation Division has ended. Thank you so much for your votes and support!",
+  "現在、結果発表を待っています。": "We are now awaiting the results.",
+  "結果がわかり次第、こちらでお知らせします。": "We will share the results here once they are announced.",
+  "キャラ久留米公式サイトを見る ▶": "Visit the official Chara Kurume website ▶",
+  "公式のX投稿を見る ▶": "View the official X post ▶",
+  "くるみのお知らせ": "Kurumi news"
+});
