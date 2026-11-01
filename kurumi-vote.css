@@ -15,3 +15,5 @@
 .kurumi-vote.is-ended .kurumi-vote-status{background:#737880}
 .kurumi-vote [hidden]{display:none!important}
 @media(max-width:760px){.kurumi-vote{grid-template-columns:1fr;gap:22px;padding:22px 20px;border-radius:20px;scroll-margin-top:110px}.kurumi-vote-art{max-width:220px}.kurumi-vote-copy h2,.kurumi-vote-copy h3{font-size:23px}.kurumi-vote-copy p{font-size:13px}.kurumi-vote-copy .kurumi-vote-period{font-size:15px;padding:12px}.kurumi-vote-actions{align-items:stretch;flex-direction:column;gap:15px}.kurumi-vote-primary{text-align:center;padding:12px 15px}.kurumi-vote-social{text-align:center}.kurumi-vote-wrap{padding-top:0;padding-bottom:0}}
+
+.kurumi-vote.is-finalist .kurumi-vote-status{background:#93612c;color:#fff8e9}

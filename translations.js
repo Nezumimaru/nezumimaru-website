@@ -808,3 +808,15 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "公式のX投稿を見る ▶": "View the official X post ▶",
   "くるみのお知らせ": "Kurumi news"
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "部門2 ファイナリスト決定！": "DIVISION 2 FINALIST!",
+  "くるみも、ファイナリストに！": "Kurumi is a finalist too!",
+  "「久留米のKurumi（くるみ）」が、キャラ久留米2026「キャラクター創作部門」のファイナリスト9キャラに選ばれました！たくさんの応援・投票を、本当にありがとうございました。": "Kurumi of Kurume has been selected as one of nine finalists in the Character Creation Division of Chara Kurume 2026! Thank you so much for your votes and support.",
+  "部門2 応援ガチャ開催期間": "Division 2 support gacha dates",
+  "2026年12月9日（水）": "December 9, 2026 (Wed)",
+  "2027年1月7日（木）": "January 7, 2027 (Thu)",
+  "次は、久留米の街とオンラインで缶バッジの応援ガチャへ。ちょろりたちに続いて、くるみも最終決戦に進みます！": "Next, Kurumi will appear on pin badges in support gacha sales across Kurume and online. Following Choroli and Chamaru, she is heading to the final round too!",
+  "ファイナリスト決定の公式発表を見る ▶": "Read the official finalist announcement ▶",
+  "2026年11月1日更新。最新の日程・販売情報は各イベントの案内をご確認ください。": "Updated November 1, 2026. Please check each event announcement for the latest schedules and sales information."
+});
