@@ -820,3 +820,37 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "ファイナリスト決定の公式発表を見る ▶": "Read the official finalist announcement ▶",
   "2026年11月1日更新。最新の日程・販売情報は各イベントの案内をご確認ください。": "Updated November 1, 2026. Please check each event announcement for the latest schedules and sales information."
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "オンライン販売のお知らせ": "Online shop news",
+  "公式BOOTH・販売開始！": "OFFICIAL BOOTH · NOW ON SALE!",
+  "缶バッジを買って、": "Buy pin badges and",
+  "ちょろりたちを応援！": "support Choroli and Chamaru!",
+  "キャラ久留米公式ショップで、ちょろりとちゃまるのランダム缶バッジが販売開始しました。": "Choroli and Chamaru random pin badges are now available from the official Chara Kurume shop.",
+  "BOOTHでのご購入も、キャラ久留米でのふたりの応援につながります！": "Your BOOTH purchase also supports the duo in Chara Kurume!",
+  "描きおろし全12種類・絵柄はランダムです。": "12 original designs, supplied at random.",
+  "公式BOOTHで缶バッジを見る ▶": "Shop pin badges on official BOOTH ▶",
+  "BASE・期間限定オンライン販売": "BASE · LIMITED-TIME ONLINE SHOP",
+  "久留米の新作グッズを、": "New Kurume goods,",
+  "おうちにも。": "delivered to your home.",
+  "まんがえほん「久留米ぐるり旅」や目印チャームなど、キャラ久留米開催記念のグッズを販売中です。": "Celebrate Chara Kurume with new goods, including the Kurume Gururi Tabi comic picture book and marker charms.",
+  "販売期間": "Sales period",
+  "11/7（土）12:00": "Nov 7 (Sat) 12:00 JST",
+  "11/23（月・祝）23:59": "Nov 23 (Mon, holiday) 23:59 JST",
+  "期間限定BASEショップを見る ▶": "Visit the limited-time BASE shop ▶",
+  "11月9日（月）": "November 9 (Mon)",
+  "11月10日（火）": "November 10 (Tue)",
+  "15時すぎ〜": "From just after 15:00",
+  "16時〜19時": "16:00–19:00",
+  "※時間は変更になる場合があります。最新情報はXでお知らせします。": "Times may change. Updates will be posted on X.",
+  "まんがえほんや目印チャームなど、ちょろりとちゃまるの新作と一緒にお待ちしています。ぜひ会いに来てください！": "I will be there with new Choroli and Chamaru goods, including the comic picture book and marker charms. Come and say hello!",
+  "公式BOOTHで販売中 ▶": "Now on official BOOTH ▶",
+  "終了したイベントを見る": "View past events",
+  "展示終了・ありがとうございました": "EXHIBITION ENDED · THANK YOU",
+  "片手にのるほどの小さなS0キャンバスに、ねずみのちょろりたちを描きました。手描きの作品3点を展示しました。ご来場ありがとうございました！": "I painted Choroli and friends on three palm-sized S0 canvases. Thank you to everyone who visited the exhibition!",
+  "ちょろりとちゃまるが部門1のファイナリストに！SNS反応・Web一般投票ともに3位をいただきました。久留米の街と公式BOOTHで、缶バッジの応援ガチャを販売中です。": "Choroli and Chamaru are Division 1 finalists, placing third in both social engagement and the public web vote! Support gacha pin badges are now on sale across Kurume and on official BOOTH.",
+  "キャラ久留米2026の部門1で、ねずみのちょろりがファイナリストに選ばれました。SNS反応・Web一般投票ともに3位。現在、久留米の街と公式BOOTHで、缶バッジの応援ガチャを販売中です。": "Choroli was selected as a Division 1 finalist in Chara Kurume 2026, placing third in both social engagement and the public web vote. Support gacha pin badges are now on sale across Kurume and on official BOOTH.",
+  "オンライン販売": "Online shops",
+  "2026年11月8日更新。最新の日程・販売情報は各イベントの案内をご確認ください。": "Updated November 8, 2026. Please check each event announcement for the latest schedules and sales information.",
+  "2026年11月8日更新。最新の日程・販売情報は公式案内をご確認ください。": "Updated November 8, 2026. Please check the official announcement for the latest schedules and sales information."
+});
