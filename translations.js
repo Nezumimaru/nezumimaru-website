@@ -861,3 +861,10 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "BASEで新作グッズを見る": "View new goods on BASE",
   "まんがえほん、チャーム、キーホルダーなど、ちょろりとちゃまるの新作グッズ": "New Choroli and Chamaru goods, including the comic picture book, charms and keychains"
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "久留米でのすてきな経験を、Xに綴りました ▶": "Read about my wonderful experience in Kurume on X ▶",
+  "久留米の思い出": "Kurume memories",
+  "2026年11月14日更新。最新の日程・販売情報は各イベントの案内をご確認ください。": "Updated November 14, 2026. Please check each event announcement for the latest schedules and sales information.",
+  "2026年11月14日更新。最新の日程・販売情報は公式案内をご確認ください。": "Updated November 14, 2026. Please check the official announcement for the latest schedules and sales information."
+});
