@@ -868,3 +868,16 @@ Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
   "2026年11月14日更新。最新の日程・販売情報は各イベントの案内をご確認ください。": "Updated November 14, 2026. Please check each event announcement for the latest schedules and sales information.",
   "2026年11月14日更新。最新の日程・販売情報は公式案内をご確認ください。": "Updated November 14, 2026. Please check the official announcement for the latest schedules and sales information."
 });
+
+Object.assign(window.NEZUMIMARU_TRANSLATIONS, {
+  "開催中のオンライン販売": "Current online shops",
+  "ちょろりとちゃまるの久留米缶バッジ": "Choroli and Chamaru Kurume pin badges",
+  "公式BOOTH・販売中": "OFFICIAL BOOTH · ON SALE",
+  "久留米の缶バッジで応援！": "Support us with Kurume pin badges!",
+  "缶バッジの販売ページへ ▶": "Shop pin badges ▶",
+  "ちょろりとちゃまるの新作グッズ": "New Choroli and Chamaru goods",
+  "BASE・期間限定": "BASE · LIMITED TIME",
+  "ちょろりたちの新作グッズ": "New Choroli and friends goods",
+  "11/23（月・祝）23:59まで": "Until Nov 23 (Mon) 23:59 JST",
+  "BASEショップへ ▶": "Visit the BASE shop ▶"
+});
