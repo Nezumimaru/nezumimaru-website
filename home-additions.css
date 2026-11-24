@@ -110,3 +110,17 @@ html[lang="en"] .news-embed>a::after{content:'See pinned and recent posts on my 
 @media(max-width:760px){.event-art img{height:148px!important}}
 
 .choroli-brand-logo{width:min(100%,280px);height:auto}.choroli-details .choroli-main-copy{font-size:17px;line-height:2.1;margin-bottom:18px}@media(max-width:760px){.choroli-brand-logo{width:min(100%,250px);margin:0 auto}.choroli-details .choroli-main-copy{font-size:15px;line-height:2.2}}
+
+.online-shops:has(>:only-child){grid-template-columns:minmax(0,560px)}
+.past-events .shop-notice{max-width:540px;margin-top:12px;box-sizing:border-box}
+.upcoming-events{margin:36px 0 8px;padding:28px 32px;border:1px solid #e0d8ca;border-radius:24px;background:#fffdf9}
+.upcoming-events h3{margin:4px 0 14px;font-size:clamp(21px,2.2vw,26px);line-height:1.5}
+.upcoming-list{list-style:none;margin:0;padding:0}
+.upcoming-list li{display:grid;grid-template-columns:170px minmax(0,1fr);gap:18px;align-items:center;padding:16px 0;border-top:1px solid #e0d8ca}
+.upcoming-date{margin:0;font-weight:700;color:#b25b3f;font-size:15px;line-height:1.6}
+.upcoming-name{margin:0 0 4px;font-weight:700;font-size:16px;line-height:1.6}
+.upcoming-place{margin:0;font-size:13px;color:#806e62;line-height:1.7}
+.upcoming-tag{display:inline-block;margin-left:6px;padding:1px 12px;border-radius:999px;font-size:12px;font-weight:700;vertical-align:2px;white-space:nowrap}
+.upcoming-tag.is-confirmed{background:#b25b3f;color:#fffdf9}
+.upcoming-tag.is-pending{border:1.5px dashed #806e62;color:#806e62}
+@media(max-width:760px){.upcoming-events{padding:22px 20px}.upcoming-list li{grid-template-columns:1fr;gap:4px}}
